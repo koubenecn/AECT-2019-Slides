@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Git into It!</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -12,6 +12,13 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
+        
+        <!-- Google fonts -->
+<!--        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
+        
+        <!--count library?-->
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,18 +32,167 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+                <section data-background="#001f3f" data-notes="Noah Koubenec introduction"><p>Git into It</p><p>Harnessing the World’s Most Popular Open-Source Software Platform for Education</p><p>Noah Koubenec</p></section>
+				<section data-notes="* ???</br>* ???<br/>">
+                    <p>So what is Git?</p>
+                    <p class="fragment" data-fragment-index="3" id="targetId">Git is version control</p>
+                    <p class="fragment" data-fragment-index="1">Git is distributed</p>
+                    <p class="fragment" data-fragment-index="2">Git is open source</p>
+                </section>
+                <section data-notes="* Git was established in 2005 to help the people working on the Linux OS keep their work organized</br>* Since then, it's grown to millions of repositories.<br/>">
+                    <p>Gitstory</p>
+                    <p class="fragment" data-fragment-index="3" id="targetId">Git is version control</p>
+                    <p class="fragment" data-fragment-index="1">Git is distributed</p>
+                    <p class="fragment" data-fragment-index="2">Git is open source</p>
+                </section>
+                <section data-markdown data-background="linear-gradient(90deg, rgba(6,0,108,1) 0%, rgba(9,9,121,1) 35%, rgba(0,68,176,1) 100%)">
+                  ## Markdown support
+
+                  Write content using inline or external Markdown.
+                  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                </section>
+                <section>
+                    <p>Potential Uses</p>
+                    <p class="fragment" data-fragment-index="3" id="targetId">Lesson plans</p>
+                    <p class="fragment" data-fragment-index="1">Data sets</p>
+                    <p class="fragment" data-fragment-index="2">Course syllabi</p>
+                    <p class="fragment" data-fragment-index="2">Collaborative poetry</p>
+                </section>
+                <section data-background="#001F3F" data-notes="* ???</br>* for this session, we'll use a classic example of a collaboratively written document to show how git & github can be used to create an interactive educational experience - we're going to amend the constitution!<br/>* since we only have 50 minutes, we'll only have time to pass three constitutional amendments - specifically, the bill of rights, the emancipation proclamation, and the 19th amendment.</br>* I'll need three volunteers with computers to help me out.">
+                    <h3 class="constitution">The Constitution</h3>
+                    <p>1st-10th Amendments</p>
+                    <p>13th Amendment</p>
+                    <p>15th Amendment</p>
+                    <p>19th Amendment</p>
+                </section>
+                <section>
+                    <h2 class="constitution">1791</h2>
+                    <p>The Bill of Rights</p>
+                    <!-- Trigger -->
+                        <button class="clipBtn" data-clipboard-text="# Amendment I
+
+Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+
+# Amendment II
+
+A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.
+
+# Amendment III
+
+No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.
+
+# Amendment IV
+
+The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+
+# Amendment V
+
+No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.
+
+# Amendment VI
+
+In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.
+
+# Amendment VII
+
+In Suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise re-examined in any Court of the United States, than according to the rules of the common law.
+
+# Amendment VIII
+
+Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+
+# Amendment IX
+
+The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.
+
+# Amendment X
+
+The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.
+">
+                            COPY AMENDMENTS TO CLIPBOARD
+                        </button>
+                </section>
+                <section>
+                    <h2 class="constitution">1865</h2>
+                    <p>The Thirteenth Amendment</p>
+                    <!-- Trigger -->
+                        <button class="clipBtn" data-clipboard-text="# Amendment XIII
+
+## Section 1
+
+Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.
+
+## Section 2
+
+Congress shall have power to enforce this article by appropriate legislation.">
+                            COPY AMENDMENT TO CLIPBOARD
+                        </button>
+                </section>
+                <section>
+                    <h2 class="constitution">1868</h2>
+                    <p>Womens' Suffrage Amendment</p>
+                    <!-- Trigger -->
+                        <button class="clipBtn" data-clipboard-text="# Amendment XV
+
+The basis of suffrage in the United States shall be that of citizenship, and all native or naturalized citizens shall enjoy the same rights and privileges of the elective franchise.
+">
+                            COPY AMENDMENT TO CLIPBOARD
+                        </button>
+                </section>
+                <section>
+                    <h2 class="constitution">1920</h2>
+                    <p>The Nineteenth Amendment</p>
+                    <!-- Trigger -->
+                        <button class="clipBtn" data-clipboard-text="# Amendment XIX
+
+The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.
+">
+                            COPY AMENDMENT TO CLIPBOARD
+                        </button>
+                </section>
+                <section>
+                     <ol>
+                        <li>Paste your amendment at the end of your local file and save</li>
+                        <li>Click "???" in GitHub Desktop</li>
+                        <li>Click "???"</li>
+                    </ol>
+                </section>
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
+        <script src="js/clipboard.min.js"></script>
 
 		<script>
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
+            
+            // initialize clipboardJS
+            const clipboard = new ClipboardJS('.clipBtn');
+            
+            // execute on clipboardJS copy/error
+            clipboard.on('success', function(e) {
+                console.info('Action:', e.action);
+                console.info('Text:', e.text);
+                console.info('Trigger:', e.trigger);
+
+                e.clearSelection();
+            });
+
+            clipboard.on('error', function(e) {
+                console.error('Action:', e.action);
+                console.error('Trigger:', e.trigger);
+            });
+            
+            // button click animation 
+            // ADD
+            
+            // slides.js init
+            
 			Reveal.initialize({
+                hash: true,
+                transition: 'concave',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
@@ -44,6 +200,8 @@
 					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
+            
+            
 		</script>
 	</body>
 </html>

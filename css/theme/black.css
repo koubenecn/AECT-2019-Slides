@@ -15,7 +15,7 @@ body {
   background-color: #191919; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -46,11 +46,11 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+/*  font-family: "Source Sans Pro", Helvetica, sans-serif;*/
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -68,6 +68,21 @@ body {
 
 .reveal h1 {
   text-shadow: none; }
+
+.constitution {
+    
+}
+h2.constitution,
+h3.constitution,
+p.constitution {
+    font-family: 'Tangerine', cursive;
+}
+h2.constitution {
+    font-size: 3em;
+}
+h3.constitution {
+    font-size: 1.5em;
+}
 
 /*********************************************
  * OTHER
@@ -271,3 +286,21 @@ body {
 @media print {
   .backgrounds {
     background-color: #191919; } }
+
+/*********************************************
+* BUTTONS
+*********************************************/
+.clipBtn {
+  min-width: 135px;
+  max-width: 200px;
+  min-height: 50px;
+  border: 0;
+  outline: 0;
+  color: white;
+
+  /* pink to orange */
+  background: #ee0979; 
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  vertical-align: top;
+  cursor:pointer;
+}
