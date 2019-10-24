@@ -246,7 +246,10 @@ h3.constitution {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  max-height: calc(50vh);
+  max-width: calc(80vw);
+}
 
 .reveal section img.plain {
   border: 0;

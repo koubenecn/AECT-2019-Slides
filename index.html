@@ -35,17 +35,18 @@
                 <section data-background="#001f3f" data-notes="Noah Koubenec introduction"><h2>Git into It:</h2><p>Harnessing the World’s Most Popular Open-Source Software Platform for Education</p><p>Noah Koubenec</p></section>
 				<section data-notes="* Git is a (1) software tool that enables control over the copying and editing (2, 3) of files across many computers and editors.">
                     <h2>So what is Git?</h2>
+                    <p>Git allows files to be edited and copied in a controlled way</p>
                     <p class="fragment" data-fragment-index="1" id="targetId">Git is community-developed and open source</p>
                     <p class="fragment" data-fragment-index="2">Git is distributed</p>
                     <p class="fragment" data-fragment-index="3">Git is version control</p>
                 </section>
-                <section data-notes="* Git really shines when you expect many people to want to use or modify your files. To help illustrate that, let's compare how that would occur with Git and GitHub versus how it would occur in a popular file sharing and collaborative editing product.<br/>* I have a file I want to share with everyone here - let's say it's a lesson plan in a text file. Easy! I'll add it to Googe Drive. Now, I want it to be freely available for anyone to view. No problem, anyone with the link can view. But wait, I want to encourage improvements to this document, and I'd like anyone to be able to propose changes. The problem is, I don't want it to be a free-for-all. Maybe people can proposed edits in the comments and then I can look at them and make them individually? Seems clumsy. Maybe just tell people to make their own copy of the file and work on that one. Perfect! Except I'd really like this document to be kind of a living document. I want to incorporate those changes into this file, which all of you in the room already know about and are already using. Also, if everyone makes their own copy, I'd love to be able to see the brilliant things others have done with their versions, even if I don't necessarily incorporate their changes.<br/>* Also, everyone in this room is smart, but I'd love to make this resource available and editable to the whole world - imagine how much better it woulc get!<br/>* As you can see, the scenario we're creating here, which is really the classic open-source, community-developed scenario, is beginning to depart from what Google Docs is really designed to do.">
+                <section data-notes="* Git really shines when you expect many people to want to use or modify your files. To help illustrate that, let's compare how that would occur with Git and GitHub versus how it would occur in a popular file sharing and collaborative editing product.<br/>* I have a file I want to share with everyone here - let's say it's a lesson plan in a text file. Easy! I'll add it to Googe Drive. Now, I want it to be freely available for anyone to view. No problem, share with everyone on the web. But wait, I want to encourage improvements to this document, and I'd like anyone to be able to propose changes. The problem is, I don't want it to be a free-for-all. Maybe people can proposed edits in the comments and then I can look at them and make them individually? Seems clumsy. Maybe just tell people to make their own copy of the file and work on that one. Perfect! Except I'd really like this document to be kind of a living document. I want to incorporate those changes into this file, which all of you in the room already know about and are already using. Also, if everyone makes their own copy, I'd love to be able to see the brilliant things others have done with their versions, even if I don't necessarily incorporate their changes.<br/>* Also, everyone in this room is smart, but I'd love to make this resource available and editable to the whole world - imagine how much better it woulc get!<br/>* As you can see, the scenario we're creating here, which is really the classic open-source, community-developed scenario, is beginning to depart from what Google Docs is really designed to do.">
                                 <p>Sharing and Editing: Google Docs vs. Git & GitHub</p>
-                                <p>ILLUSTRATION?</p>
+                                <img class="fragment" data-fragment-index="1" src="img/driveshare.png"/>
                 </section>
                 <section data-notes="* So now let's try the same exercise with Github. I create a repo on GitHub, adding tags, keywords etc. I make it a public repo, so it is now searchable and can be viwed by anyone. Already, I've introduced a capability thatdoes not exist in Google Docs - there is no clearinghouse allowing for a global search of every educational resource everyone has ever made public on Google Drive. CONFIRM<br/>* From the start, anyone can fork this repo to make changes. Then, if they want these changes to be incorporated into the MASTER ORIGIN?, they issue a pull request which I can review and approve or not. Even they don't issue a pull request, all their modifications to their own fork are connected with my original repo, so I and others can see what they're doing on their own!<br/>* Critical here is that these changes are not occuring in the browser - you're editing local files on your computer using your programs of choice. Git and Github are just the tools that coordinate the edits of all of those local copies and make them available online.<br/>* These features are really what make Git and GitHub such a great fit for educators - we are, first and foremost, a collaborative, sharing community that bears many similarities to the open source software community Git was originally built for.">
                                 <p>Sharing and Editing: Google Docs vs. Git & GitHub</p>
-                                <p>ILLUSTRATION?</p>
+                                <img class="fragment" data-fragment-index="1" src="img/reposcreen.png"/>
                 </section>
 <!--
                 <section data-notes="* Git was established in 2005 to help the people working on the Linux OS keep their work organized</br>* Since then, it's grown to millions of repositories. It was <br/>">
@@ -57,11 +58,14 @@
 -->
                 <section data-notes="* GitHub os a website that allows you to add your repos to its servers so that others have a central location to find them.</br>* But because of the decentralized nature of Git, GitHub could dissapear tomorrow and those repos wouldn't be gone. Instead, they'd still exist with their editing and collaboration histories on local machines all over the world, ready to be uploaded to other Git hosting services (Bitbucket is another great one).<br/>">
                     <h2>What about GitHub?</h2>
-                    <p class="fragment" data-fragment-index="3" id="targetId">Git is community-developed and open source</p>
-                    <p class="fragment" data-fragment-index="1">Git is distributed</p>
-                    <p class="fragment" data-fragment-index="2">Git is version control</p>
+                    <p>GitHub is a cloud-based service providing hosting for repositories and a web interface for Git.</p>
+                    <p>Alternatives include:</p>
+                    <ul>
+                        <li>Bitbucket</li>
+                        <li>GitLab</li>
+                    </ul>
                 </section>
-                <section data-notes="Git has its own terminology used to perform actions on files - a few key terms we'll use in this session are:</br>* ???<br/>">
+                <section data-notes="Git & GitHub have their own terminology used to perform actions on files - a few key terms we'll use in this session are:<br/>">
                     <h2>Git: Key Terms</h2>
                     <ul>
                         <li>Repository (repo)</li>
@@ -93,10 +97,9 @@
                     <p>19th Amendment</p>
                 </section>
                 <section>
-                <section>
+                <section data-notes="* the year is 1791.">
                     <h2 class="constitution">1791</h2>
                     <p>The Bill of Rights</p>
-                    <p>DO ANY EARLY VERSION SLIDE WITH EXTRA AMENDMENT HISTORICAL TO SHOW CHERRY PICKING!</p>
                     <!-- Trigger -->
                         <button class="clipBtn" data-clipboard-text="# Amendment I
 
@@ -217,13 +220,18 @@ The right of citizens of the United States to vote shall not be denied or abridg
                 <section data-notes="GitHub has another great feature: GitHub pages. We're all familiar with the many template-based WYSIWYG site builders out there, and there's a chance you're looking to build a personal website or a project site that has some more advanced features or a different design than what you typically find with Google Sites, Weebly etc. With GitHub, you can build a website with full control over the HTML, CSS, and client-side Javascript, put all those files in a GitHub repo, and you'll immedietely have a completely custom site hosted for free - and still forkable by others. This presentation is actually a website hosted on GitHub pages which uses a great javacript slides library and is a GitHub repo - meaning you can copy and modify all you want! You can also use custom domains with GitHub pages.">
                     <h2>About this presentation</h2>
                     <ul>
-                        <li>Built with reveal.js</li>
-                        <li>Uses clipboard.js</li>
+                        <li>Built with <a href="https://revealjs.com/#/" target="_blank">reveal.js</a></li>
+                        <li>Uses <a href="https://clipboardjs.com/" target="_blank">clipboard.js</a></li>
                         <li>Hosted on GitHub!</li>
                     </ul>
+                    <p><a href="https://www.spacejam.com/archive/spacejam/movie/jam.htm" target="_blank">?</a></p>
                 </section>
                 <section data-notes="* I hope to have demonstrated that Git & GitHub can be powerful tools for educators to share and collaborate, and that the ideas they're built on are aligned with the fundamental values of our field - which is not always the case with ed tech tools.<br/>* I hope you'll all start your first repos soon!">
-                    <p>Thanks for attending!</p>
+                    <h2>Thanks for attending!</h2>
+                    <p>Further reading:</p>
+                    <p><a href="https://guides.github.com/activities/hello-world/" target="_blank">GitHub Hello World tutorial</a></p>
+                    <p><a href="https://github.com/panozzaj/recipes" target="_blank">Anthony Panozzo's recipes repo</a></p>
+                    <p><a href="http://jlord.us/sheetsee.js/" target="_blank">Jessica Lord's Sheetsee.js Google Sheets visualization library</a></p>
                 </section>
 			</div>
 		</div>
